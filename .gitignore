@@ -1,3 +1,19 @@
+# Секреты и конфиги
 .env
-__pycache__/
+*.session
+*.log
+
+# Виртуальное окружение
 venv/
+.venv/
+
+# Системные файлы Python
+__pycache__/
+*.py[cod]
+
+# IDE
+.idea/
+.vscode/
+
+# Локальные настройки
+.DS_Store
